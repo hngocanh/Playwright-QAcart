@@ -5,7 +5,7 @@ import TodoPage from '../pages/TodoPage';
 import NewTodoPage from '../pages/NewTodoPage';
 
 
-test('should be able to add a new todo', async ({ page, request, context }) => {
+test('Should be able to add a new todo', async ({ page, request, context }) => {
 
     const user = new User();
     const signupPage = new SignupPage();
