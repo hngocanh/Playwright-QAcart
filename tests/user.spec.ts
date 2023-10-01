@@ -3,7 +3,7 @@ import User from '../models/user';
 import SignupPage from '../pages/SignupPage';
 import TodoPage from '../pages/TodoPage';
 
-test('Should be able to register to app', async ({ page }) => {
+test('Should be able to register new user to app', async ({ page }) => {
 
     const user = new User();
     const signupPage = new SignupPage();
